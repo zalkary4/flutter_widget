@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widget/widgets/login_page_ui.dart';
+import 'package:flutter_widget/widgets/modal_bottom_sheet.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,10 +15,12 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const LoginPage(),
+      home: const ModalBottomSheet(),
     );
   }
 }
+
+
 
 // class MyHomePage extends StatefulWidget {
 //   const MyHomePage({super.key, required this.title});
