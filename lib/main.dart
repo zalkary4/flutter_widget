@@ -1,13 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widget/widgets/modal_bottom_sheet.dart';
+import 'package:flutter_widget/widgets/animated_positioned_widget.dart';
 
 void main() {
   runApp(const MyApp());
 }
 
-class MyApp extends StatelessWidget {
+class MyApp extends StatefulWidget {
   const MyApp({super.key});
 
+  @override
+  State<MyApp> createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -15,12 +20,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const ModalBottomSheet(),
+      home: AnimatedPositionedWidget(),
     );
   }
 }
-
-
 
 // class MyHomePage extends StatefulWidget {
 //   const MyHomePage({super.key, required this.title});
