@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widget/widgets/awesome_animation.dart';
+import 'package:flutter_widget/widgets/about_list_tile_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const AwesomeAnimation(),
+      home: const AboutListTileWidget(),
     );
   }
 }
