@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widget/widgets/about_list_tile_widget.dart';
+import 'package:flutter_widget/widgets/column_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const AboutListTileWidget(),
+      home: const ColumnWidget(),
     );
   }
 }
