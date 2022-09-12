@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widget/widgets/date_picker.dart';
+import 'package:flutter_widget/widgets/awesome_animation.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const DatePicker(),
+      home: const AwesomeAnimation(),
     );
   }
 }
