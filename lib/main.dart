@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widget/widgets/animated_positioned_widget.dart';
+import 'package:flutter_widget/widgets/cliprrect_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: AnimatedPositionedWidget(),
+      home: const ClipRRectWidget(),
     );
   }
 }
