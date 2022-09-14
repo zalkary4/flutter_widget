@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 
-class trash extends StatefulWidget {
-  const trash({
+class Trash extends StatefulWidget {
+  const Trash({
     super.key,
   });
 
   @override
-  State<trash> createState() => _trashState();
+  State<Trash> createState() => _TrashState();
 }
 
-class _trashState extends State<trash> {
+class _TrashState extends State<Trash> {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
