@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widget/widgets/will_pop_scope.dart';
+import 'package:flutter_widget/widgets/allert_dialog.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const WWWWillPopScope(),
+      home: const AllertDialog(),
     );
   }
 }
