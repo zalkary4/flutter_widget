@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widget/widgets/gesture_detector_widget.dart';
+import 'package:flutter_widget/widgets/touch_zoom.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const GestureDetectorwidget(),
+      home: const TouchZoom(),
     );
   }
 }
