@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widget/widgets/allert_dialog.dart';
+import 'package:flutter_widget/widgets/future_builder.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const AllertDialog(),
+      home: const FutureBuilderABC(),
     );
   }
 }
